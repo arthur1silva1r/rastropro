@@ -7,23 +7,14 @@ In this project, I aim to create an easy option for professionals in the field a
 # RastroPro 
 é uma aplicação com o objetivo de centralizar e gerenciar todas as informações relacionadas a equipamentos de rastreamento. A ideia é criar uma ferramenta completa para profissionais da área, com funcionalidades como:
 
-# Catálogo de Equipamentos:
+## Catálogo de Equipamentos:
 Listagem de dispositivos de rastreamento, com informações detalhadas sobre cada um (modelos, fabricantes, etc.).
 
-# Configurações e Comandos:
+## Configurações e Comandos:
 Repositório de comandos SMS para cada equipamento, explicando como configurá-los e usá-los.
 
-# Guias de Instalação:
-Passo a passo detalhado de instalação de cada dispositivo, com diagramas e instruções claras.
 
-# Esquemas de Fios:
-Diagramas de fiação mostrando como conectar cada dispositivo corretamente, com a identificação das cores dos fios e suas funções.
-
-# Assecibilidade
-Design intuitivo e amigável para facilitar a consulta e o gerenciamento das informações.
-
-
-# Modelo de Objeto 
+## Modelo de Objeto 
 {
   "nome": "EXEMPLO",
   "descricao": "Rastreador compacto ideal para veículos leves e pesados, com localização em tempo real e funcionalidades avançadas de segurança.",
@@ -53,7 +44,7 @@ Design intuitivo e amigável para facilitar a consulta e o gerenciamento das inf
   ]
 }
 
-## Estrutura das Propriedades:
+### Estrutura das Propriedades:
 nome: Nome do rastreador.
 descricao: Breve descrição do dispositivo.
 tipoDeSinal: Tipo de sinal suportado (pode ser "2G", "4G" ou "2G/4G").
