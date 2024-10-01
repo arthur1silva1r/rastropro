@@ -21,3 +21,45 @@ Diagramas de fiação mostrando como conectar cada dispositivo corretamente, com
 
 # Assecibilidade
 Design intuitivo e amigável para facilitar a consulta e o gerenciamento das informações.
+
+
+# Modelo de Objeto 
+{
+  "nome": "EXEMPLO",
+  "descricao": "Rastreador compacto ideal para veículos leves e pesados, com localização em tempo real e funcionalidades avançadas de segurança.",
+  "tipoDeSinal": "2G/4G",
+  "valorMedioDeMercado": 249.90,
+  "linkParaConfigurador": "https://exemplo.com/configurador-tk303",
+  "contatoDoSuporte": "suporte@fabricante.com",
+  "listaDeComandosBasicos": [
+    "Status: STATUS#",
+    "Reiniciar dispositivo: RESET#",
+    "Obter localização: LOC#"
+  ],
+  "listaDeComandosMoto": [
+    "Cortar combustível: CUT#",
+    "Restaurar combustível: RES#",
+    "Alarme de movimento: MOV#"
+  ],
+  "todosOsComandos": [
+    "Status: STATUS#",
+    "Reiniciar dispositivo: RESET#",
+    "Obter localização: LOC#",
+    "Cortar combustível: CUT#",
+    "Restaurar combustível: RES#",
+    "Alarme de movimento: MOV#",
+    "Obter localização via SMS: SMSLOC#",
+    "Ativar modo de escuta: LISTEN#"
+  ]
+}
+
+## Estrutura das Propriedades:
+nome: Nome do rastreador.
+descricao: Breve descrição do dispositivo.
+tipoDeSinal: Tipo de sinal suportado (pode ser "2G", "4G" ou "2G/4G").
+valorMedioDeMercado: Valor médio do dispositivo no mercado.
+linkParaConfigurador: Link para o configurador online.
+contatoDoSuporte: E-mail de contato do suporte técnico.
+listaDeComandosBasicos: Lista de comandos básicos do rastreador.
+listaDeComandosMoto: Lista de comandos voltados para dispositivos instalados em motocicletas.
+todosOsComandos: Lista completa de todos os comandos disponíveis.
