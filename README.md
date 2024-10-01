@@ -1,11 +1,12 @@
 # RastroPro
-This project aims to assist everyone who works with vehicle tracking and fleet management. The goal is to provide the most comprehensive instructions possible regarding tracking equipment, all for free.
+O projeto tem como objetivo melhorar minhas ideias e capacidades utilizando React. Além disso, desejo disponibilizar futuramente uma versão utilizável para auxiliar pessoas que trabalham com rasteramento veicular como uma central de apoio onde serão encontrados diversos equipamentos e suas configurações.
 
-In this project, I aim to create an easy option for professionals in the field and interested individuals to find the most comprehensive information about telemetry equipment, as well as to develop my skills in React.
+## Funcionalidade que desejo implementar:
 
-
-# RastroPro 
-é uma aplicação com o objetivo de centralizar e gerenciar todas as informações relacionadas a equipamentos de rastreamento. A ideia é criar uma ferramenta completa para profissionais da área, com funcionalidades como:
+-> Filtro por Nome do equipamento;
+-> Filtro por Nome do fabricante;
+-> Cada comando num campo que seja possivel ele clicar e já copiar o comando;
+-> Consulta ao valor medio de mercado de cada equipamento.
 
 ## Catálogo de Equipamentos:
 Listagem de dispositivos de rastreamento, com informações detalhadas sobre cada um (modelos, fabricantes, etc.).
@@ -14,7 +15,7 @@ Listagem de dispositivos de rastreamento, com informações detalhadas sobre cad
 Repositório de comandos SMS para cada equipamento, explicando como configurá-los e usá-los.
 
 
-## Modelo de Objeto 
+### Modelo de Objeto 
 {
   "nome": "EXEMPLO",
   "descricao": "Rastreador compacto ideal para veículos leves e pesados, com localização em tempo real e funcionalidades avançadas de segurança.",
@@ -52,5 +53,4 @@ valorMedioDeMercado: Valor médio do dispositivo no mercado.
 linkParaConfigurador: Link para o configurador online.
 contatoDoSuporte: E-mail de contato do suporte técnico.
 listaDeComandosBasicos: Lista de comandos básicos do rastreador.
-listaDeComandosMoto: Lista de comandos voltados para dispositivos instalados em motocicletas.
-todosOsComandos: Lista completa de todos os comandos disponíveis.
+algunsComandosEspeciais: Lista completa de todos os comandos disponíveis.
